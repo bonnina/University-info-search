@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Poiret+One'); 
+
+body {
+    background-color: #e0ebeb;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+  
+.container-fluid {
+    padding: 2vw;;
+}
+
+h1 {
+    color: #cc6666;
+}
+
+button, #inp {
+    font: 2vw 'Poiret One', cursive;
+    color: #006666;
+    font-weight: bold;
+    margin: 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    box-shadow: none;
+    padding: 0 1vw 0.5vw 1vw;
+}
+
+p {
+    font: 2vw 'Poiret One', cursive;
+    font-weight: bold;
+    color: #cc6666;
+}
+
+#inp {
+    padding-left: 1vw;
+    width: 30vw;
+}
+
+table {
+    display: none; 
+}
+
+th, td {
+    padding: 0.8vw 1.5vw 0.8vw 1.5vw;
+    font-size: 1.5vw;
+}
+
+td:nth-child(1) { 
+    color: #006666;
+}
+
+td:nth-child(2) {
+    cursor: pointer;
+    text-decoration: underline;
+    overflow: visible;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
+
+th:last-child, td:last-child {
+   width: 5vw;
+   text-align: center;
+}
+
+th {
+    color: #cc6666;
+    font: 1.7vw 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+#tableArea {
+     background-color: white; 
+}

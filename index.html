@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content-type="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>University Domains</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container-fluid">
+     <h1>University Domains Search</h1>
+     <p id="count" class="text-right"></p>
+     <div>
+     <!-- <form > -->
+          <!-- <label htmlFor="inp"> Country name or major </label>  -->
+         <input type="text" id="inp" name="str" value="" placeholder="major or country name" required />
+         <button id="submit"> submit </button>
+         <button id="clear"> clear search results </button>
+     <!-- </form> -->
+    </div>
+    
+    <div id="tableArea">
+      <table id="table">
+        <thead>
+          <tr>
+            <th>&numero;</th>
+            <th>Website</th>
+            <th>Country code</th>
+            <th>Country</th>
+            <th>Domain(s)</th>
+            <th>University</th>
+            <th>Save</th>
+          </tr>
+        </thead>
+        <tbody id="jsonData">       
+        </tbody>
+      </table>    
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
